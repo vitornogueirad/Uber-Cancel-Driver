@@ -1,0 +1,23 @@
+{
+  "feature_order": [
+    "Pickup Location",
+    "Drop Location",
+    "Vehicle Type",
+    "Payment Method",
+    "Avg VTAT",
+    "hour",
+    "day_of_week",
+    "is_weekend"
+  ],
+  "categorical": [
+    "Pickup Location",
+    "Drop Location",
+    "Vehicle Type",
+    "Payment Method"
+  ],
+  "numeric_time": [
+    "hour",
+    "day_of_week",
+    "is_weekend"
+  ]
+}

@@ -1,0 +1,56 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ======================
+# Virtual envs
+# ======================
+.venv/
+env/
+venv/
+
+# ======================
+# Jupyter / Notebooks
+# ======================
+.ipynb_checkpoints/
+*.ipynb
+
+# ======================
+# Logs / temporários
+# ======================
+*.log
+*.tmp
+*.pid
+*.gz
+*.tar
+*.zip
+*.DS_Store
+
+# ======================
+# IDEs
+# ======================
+.vscode/
+.idea/
+
+# ======================
+# Dados locais
+# ======================
+data/
+*.csv
+*.parquet
+
+# ======================
+# Artefatos de modelo
+# ======================
+*.pkl
+*.joblib
+*.json
+
+!artifacts/uber_cancel_driver_clf.joblib
+!artifacts/model_schema.json
+!artifacts/threshold.json
